@@ -2,10 +2,10 @@ import * as THREE from 'three'
 import { setupScene } from './setup-scene'
 import GUI from 'lil-gui'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
-import { RGBELoader } from 'three/addons/loaders/RGBELoader.js'
-import { EXRLoader } from 'three/addons/loaders/EXRLoader.js'
-import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js'
-import { GroundedSkybox } from 'three/addons/objects/GroundedSkybox.js'
+// import { RGBELoader } from 'three/addons/loaders/RGBELoader.js'
+// import { EXRLoader } from 'three/addons/loaders/EXRLoader.js'
+// import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js'
+// import { GroundedSkybox } from 'three/addons/objects/GroundedSkybox.js'
 
 // * Setup
 const canvas = document.querySelector('.webgl') as HTMLCanvasElement
